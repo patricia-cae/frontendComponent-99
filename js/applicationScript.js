@@ -72,7 +72,7 @@ var loadSongs = function(){
     arr.forEach(function(item) {
         text += item.title + ", "
     }); 
-    document.getElementById("p").innerText = text;
+    document.getElementById("p_f1ea4").innerText = text;
     console.log(data);
   },
   function(error) {
